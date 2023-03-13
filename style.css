@@ -1,0 +1,331 @@
+* {
+    box-sizing: border-box;
+}
+
+.html {
+    background-color: #595959;
+}
+
+.website {
+    display: block;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+    background-color: #fff;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    padding:10px;
+    margin:10px;
+}
+
+
+.left {
+    width: 695px;
+    height: 984px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #f3f5f9;
+    border-radius: 10px;
+}
+
+.logo {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 40px;
+    top: 40px;
+    border-radius: 10px;
+    background-color: #3c37ff;
+}
+
+.circlewhite {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 52px;
+    top: 52px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.text1 {
+    position: absolute;
+    width: 568px;
+    height: 150px;
+    left: 30px;
+    top: 180px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 75px;
+    /* or 156% */
+    letter-spacing: 0.01em;
+    color: black;
+}
+
+.text2 {
+    position: absolute;
+    width: 578px;
+    height: 80px;
+    left: 30px;
+    top: 380px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 40px;
+    /* or 167% */
+    letter-spacing: 0.01em;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.Rectangle-3 {
+    position: absolute;
+    width: 635px;
+    height: 340px;
+    left: 30px;
+    top: 594px;
+
+    background: #2D3345;
+    border-radius: 10px;
+}
+
+.text3 {
+    position: absolute;
+    width: 555px;
+    height: 120px;
+    left: 60px;
+    top: 654px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    /* or 167% */
+
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+
+}
+
+#boy {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 60px;
+    top: 824px;
+    border-radius: 30px;
+}
+
+.text4 {
+    position: absolute;
+    width: 122px;
+    height: 29px;
+    left: 145px;
+    top: 800px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    color: #FFFFFF;
+
+}
+
+.text5 {
+    position: absolute;
+    width: 165px;
+    height: 24px;
+    left: 145px;
+    top: 840px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.circle1 {
+    position: absolute;
+    width: 16.24px;
+    height: 16px;
+    left: 295px;
+    top: 950px;
+    background: #2D3345;
+    border-radius: 20px;
+}
+
+.circle2 {
+    position: absolute;
+    width: 16.24px;
+    height: 16px;
+    left: 320.38px;
+    top: 950px;
+    border-radius: 20px;
+    background: rgba(217, 217, 217, 0.5);
+}
+
+.circle3 {
+    position: absolute;
+    width: 16.24px;
+    height: 16px;
+    left: 345.76px;
+    top: 950px;
+    border-radius: 20px;
+    background: rgba(217, 217, 217, 0.5);
+}
+
+.GetStarted {
+    position: absolute;
+    width: 199px;
+    height: 44px;
+    left: 795px;
+    top: 90px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.text6 {
+    position: absolute;
+    width: 292px;
+    height: 29px;
+    left: 795px;
+    top: 174px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#full {
+    position: absolute;
+    width: 115px;
+    height: 29px;
+    left: 795px;
+    top: 300px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
+
+.name1 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 570px;
+    height: 80px;
+    left: 795px;
+    top: 340px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+
+}
+
+#account {
+    position: absolute;
+    width: 63px;
+    height: 29px;
+    left: 795px;
+    top: 460px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    color: #000000;
+
+}
+
+.mail1 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 570px;
+    height: 80px;
+    left: 795px;
+    top: 500px;
+
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+#pass {
+    position: absolute;
+    width: 63px;
+    height: 29px;
+    left: 795px;
+    top: 620px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.password1 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 570px;
+    height: 80px;
+    left: 795px;
+    top: 670px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+.strong {
+    position: absolute;
+    width: 72px;
+    height: 24px;
+    left: 1293px;
+    top: 600px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #10C500;
+
+}
+
+.signup {
+    position: absolute;
+    width: 570px;
+    height: 80px;
+    left: 795px;
+    top: 800px;
+
+    background: #3C37FF;
+    border-radius: 10px;
+
+}
+
+.textsignup {
+    position: absolute;
+    width: 92px;
+    height: 28px;
+    left: 1034px;
+    top: 800px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.text7 {
+    position: absolute;
+    width: 280px;
+    height: 28px;
+    left: 943px;
+    top: 908px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+}
